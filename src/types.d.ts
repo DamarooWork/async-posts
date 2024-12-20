@@ -10,7 +10,7 @@ interface CounterState {
   fetchedPosts: []
 }
 interface MyProps {
-
+  createPost: (post: IPost) => void
 }
 interface MyState {
   title: string
