@@ -18,7 +18,7 @@ class PostForm extends React.Component<MyProps, MyState> {
       title,
       id: +Date.now().toString(),
     }
-   
+
     this.props.createPost(newPost)
     this.setState({ title: '' })
 
